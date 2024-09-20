@@ -49,5 +49,6 @@ public class WatchStoreUltimateApplication implements CommandLineRunner {
     PurchaseHistoryRepository repository ;
     @Override
     public void run(String... args) throws Exception {
+        System.out.println("Hello world");
     }
 }
